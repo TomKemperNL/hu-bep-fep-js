@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "es-dev-server --app-index index.html --node-resolve --watch --open",
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^2.2.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "es-dev-server": "^2.1.0",
+    "rollup": "^2.70.2",
+    "rollup-plugin-copy": "^3.4.0"
+  }
+}
