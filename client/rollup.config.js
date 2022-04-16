@@ -16,7 +16,7 @@ export default {
 	plugins: [
         replace({
             values: {
-                'API_BASE_URL': JSON.stringify('/')
+                'API_BASE_URL': JSON.stringify('')
             },
             preventAssignment: true
             
